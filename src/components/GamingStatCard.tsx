@@ -7,7 +7,7 @@ import { LucideIcon } from 'lucide-react';
  * Gaming-themed stat card component with hover effects and trend indicators
  * @param props - GamingStatCardProps containing icon, label, value, and styling options
  */
-export const GamingStatCard = React.memo<GamingStatCardProps & { icon: LucideIcon }>(({
+export const GamingStatCard = React.memo<GamingStatCardProps & { icon: LucideIcon }>(function GamingStatCard({
   icon: Icon,
   label,
   value,
@@ -16,7 +16,7 @@ export const GamingStatCard = React.memo<GamingStatCardProps & { icon: LucideIco
   trendValue,
   decimals = 1,
   color = 'purple'
-}: GamingStatCardProps & { icon: LucideIcon }) {
+}) {
   const colorClasses = {
     purple: 'from-purple-600 to-violet-600',
     pink: 'from-pink-600 to-rose-600',
