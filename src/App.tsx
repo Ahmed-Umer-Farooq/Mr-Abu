@@ -143,7 +143,7 @@ const App = React.memo(() => {
 
               {/* Name & Title */}
               <div className="space-y-2 -mt-8">
-                <h1 className="text-2xl md:text-3xl font-black text-white neon-text tracking-widest" data-text="MR ABU">
+                <h1 className="text-2xl md:text-2xl font-black text-white neon-text tracking-widest" data-text="MR ABU">
                   MR ABU
                 </h1>
                 <p className="text-sm md:text-base text-muted-foreground font-medium">
@@ -157,7 +157,7 @@ const App = React.memo(() => {
               {/* Subscriber Count & Stats */}
               <div className="flex flex-wrap items-center justify-center gap-4 max-w-4xl mx-auto">
                 <div className="gaming-card p-6 text-center">
-                  <div className="text-4xl md:text-5xl font-black gradient-text font-mono mb-2">
+                  <div className="text-3xl md:text-4xl font-black gradient-text font-mono mb-2">
                     <Suspense fallback={<div className="h-8 w-24 rounded" style={{ display: 'none' }} />}>
                       <CountUp end={526863} decimals={0} duration={3500} />
                     </Suspense>
@@ -199,7 +199,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center fade-in">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="LIFETIME STATS">
+                <h2 className="relative text-2xl md:text-3xl font-black text-white glitch tracking-tight" data-text="LIFETIME STATS">
                   LIFETIME STATS
                 </h2>
               </div>
@@ -218,7 +218,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Views</p>
-                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">73.8M</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">73.8M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">All Time High</span>
                     </div>
@@ -241,7 +241,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Likes</p>
-                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">4.3M</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">4.3M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">High Engagement</span>
                     </div>
@@ -264,7 +264,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Comments</p>
-                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">278.6K</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">278.6K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">Active Community</span>
                     </div>
@@ -287,7 +287,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Shares</p>
-                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">114.8K</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">114.8K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">High Viral Rate</span>
                     </div>
@@ -335,7 +335,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="RECENT PERFORMANCE">
+                <h2 className="relative text-2xl md:text-3xl font-black text-white glitch tracking-tight" data-text="RECENT PERFORMANCE">
                   RECENT PERFORMANCE
                 </h2>
               </div>
@@ -371,7 +371,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Views</p>
-                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">1.3M</p>
+                    <p className="text-xl md:text-2xl font-bold text-white mt-1">1.3M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-red-400 text-sm font-medium">-3.2% ↓</span>
                     </div>
@@ -394,7 +394,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Watch Time</p>
-                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">64.4K</p>
+                    <p className="text-xl md:text-2xl font-bold text-white mt-1">64.4K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+12.5% ↑</span>
                     </div>
@@ -417,7 +417,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Subscribers</p>
-                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">+4.6K</p>
+                    <p className="text-xl md:text-2xl font-bold text-white mt-1">+4.6K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+8.7% ↑</span>
                     </div>
@@ -440,7 +440,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Revenue</p>
-                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">US$105.90</p>
+                    <p className="text-xl md:text-2xl font-bold text-white mt-1">US$105.90</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+15.3% ↑</span>
                     </div>
@@ -488,7 +488,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="AUDIENCE INTEL">
+                <h2 className="relative text-2xl md:text-3xl font-black text-white glitch tracking-tight" data-text="AUDIENCE INTEL">
                   AUDIENCE INTEL
                 </h2>
               </div>
@@ -622,7 +622,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="TOP VIDEOS">
+                <h2 className="relative text-2xl md:text-3xl font-black text-white glitch tracking-tight" data-text="TOP VIDEOS">
                   TOP VIDEOS
                 </h2>
               </div>
@@ -804,7 +804,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="VIRAL SHORTS">
+                <h2 className="relative text-2xl md:text-3xl font-black text-white glitch tracking-tight" data-text="VIRAL SHORTS">
                   VIRAL SHORTS
                 </h2>
               </div>
@@ -929,7 +929,7 @@ const App = React.memo(() => {
           <div className="container mx-auto max-w-5xl">
             <div className="gaming-card p-12 text-center space-y-8 scanline">
               <div className="space-y-4">
-                <h2 className="text-4xl md:text-5xl font-black text-white glitch" data-text="LET'S COLLABORATE">
+                <h2 className="text-3xl md:text-4xl font-black text-white glitch" data-text="LET'S COLLABORATE">
                   LET'S COLLABORATE
                 </h2>
                 <div className="h-1 w-32 mx-auto bg-gradient-to-r from-primary to-secondary" />
