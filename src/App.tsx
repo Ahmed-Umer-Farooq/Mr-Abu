@@ -211,7 +211,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Views</p>
-                    <p className="text-5xl font-bold text-white mt-1">73.8M</p>
+                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">73.8M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">All Time High</span>
                     </div>
@@ -234,7 +234,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Likes</p>
-                    <p className="text-5xl font-bold text-white mt-1">4.3M</p>
+                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">4.3M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">High Engagement</span>
                     </div>
@@ -257,7 +257,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Comments</p>
-                    <p className="text-5xl font-bold text-white mt-1">278.6K</p>
+                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">278.6K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">Active Community</span>
                     </div>
@@ -280,7 +280,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Total Shares</p>
-                    <p className="text-5xl font-bold text-white mt-1">114.8K</p>
+                    <p className="text-3xl md:text-4xl font-bold text-white mt-1">114.8K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">High Viral Rate</span>
                     </div>
@@ -364,7 +364,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Views</p>
-                    <p className="text-4xl font-bold text-white mt-1">1.3M</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">1.3M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-red-400 text-sm font-medium">-3.2% ↓</span>
                     </div>
@@ -387,7 +387,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Watch Time</p>
-                    <p className="text-4xl font-bold text-white mt-1">64.4K</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">64.4K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+12.5% ↑</span>
                     </div>
@@ -410,7 +410,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Subscribers</p>
-                    <p className="text-4xl font-bold text-white mt-1">+4.6K</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">+4.6K</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+8.7% ↑</span>
                     </div>
@@ -433,7 +433,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Revenue</p>
-                    <p className="text-4xl font-bold text-white mt-1">US$105.90</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">US$105.90</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">+15.3% ↑</span>
                     </div>
@@ -500,7 +500,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Top Age Group</p>
-                    <p className="text-4xl font-bold text-white mt-1">18-24</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">18-24</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">42.3% of audience</span>
                     </div>
@@ -523,7 +523,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Gender Split</p>
-                    <p className="text-4xl font-bold text-white mt-1">82% M</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">82% M</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">18% Female</span>
                     </div>
@@ -544,7 +544,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Top Country</p>
-                    <p className="text-4xl font-bold text-white mt-1">Pakistan</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">Pakistan</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">73.9% of views</span>
                     </div>
@@ -567,7 +567,7 @@ const App = React.memo(() => {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <p className="text-gray-400 text-sm font-medium uppercase tracking-wide">Peak Time</p>
-                    <p className="text-4xl font-bold text-white mt-1">8-10 PM</p>
+                    <p className="text-2xl md:text-3xl font-bold text-white mt-1">8-10 PM</p>
                     <div className="flex items-center gap-1 mt-2">
                       <span className="text-green-400 text-sm font-medium">IST Daily Peak</span>
                     </div>
