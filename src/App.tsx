@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useState } from 'react';
+import React, { Suspense, lazy, useState, useEffect } from 'react';
 import { Eye, ThumbsUp, MessageCircle, Share2, Clock, TrendingUp, DollarSign, Users, Mail, Youtube, Instagram, MessageSquare, Target, Zap, Trophy, X, Globe, Calendar, Activity } from 'lucide-react';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { LazyImage } from './components/LazyImage';
@@ -32,6 +32,13 @@ const App = React.memo(() => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   
   useScrollAnimation();
+  
+  // Force scroll to top on page load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
   
 
   
