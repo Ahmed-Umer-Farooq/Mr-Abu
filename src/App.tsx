@@ -136,10 +136,10 @@ const App = React.memo(() => {
 
               {/* Name & Title */}
               <div className="space-y-2 -mt-8">
-                <h1 className="text-3xl md:text-4xl font-black text-white neon-text tracking-widest" data-text="MR ABU">
+                <h1 className="text-2xl md:text-3xl font-black text-white neon-text tracking-widest" data-text="MR ABU">
                   MR ABU
                 </h1>
-                <p className="text-base md:text-lg text-muted-foreground font-medium">
+                <p className="text-sm md:text-base text-muted-foreground font-medium">
                   Professional Gaming Creator & Free Fire Specialist
                 </p>
                 <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto pt-1">
@@ -150,7 +150,7 @@ const App = React.memo(() => {
               {/* Subscriber Count & Stats */}
               <div className="flex flex-wrap items-center justify-center gap-4 max-w-4xl mx-auto">
                 <div className="gaming-card p-6 text-center">
-                  <div className="text-5xl md:text-6xl font-black gradient-text font-mono mb-2">
+                  <div className="text-4xl md:text-5xl font-black gradient-text font-mono mb-2">
                     <Suspense fallback={<div className="h-8 w-24 rounded" style={{ display: 'none' }} />}>
                       <CountUp end={526863} decimals={0} duration={3500} />
                     </Suspense>
@@ -192,7 +192,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center fade-in">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-4xl md:text-6xl font-black text-white glitch tracking-tight" data-text="LIFETIME STATS">
+                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="LIFETIME STATS">
                   LIFETIME STATS
                 </h2>
               </div>
@@ -328,7 +328,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-4xl md:text-6xl font-black text-white glitch tracking-tight" data-text="RECENT PERFORMANCE">
+                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="RECENT PERFORMANCE">
                   RECENT PERFORMANCE
                 </h2>
               </div>
@@ -481,7 +481,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-4xl md:text-6xl font-black text-white glitch tracking-tight" data-text="AUDIENCE INTEL">
+                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="AUDIENCE INTEL">
                   AUDIENCE INTEL
                 </h2>
               </div>
@@ -615,7 +615,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-4xl md:text-6xl font-black text-white glitch tracking-tight" data-text="TOP VIDEOS">
+                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="TOP VIDEOS">
                   TOP VIDEOS
                 </h2>
               </div>
@@ -797,7 +797,7 @@ const App = React.memo(() => {
             <div className="mb-12 text-center">
               <div className="inline-block relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary blur-xl opacity-50" />
-                <h2 className="relative text-4xl md:text-6xl font-black text-white glitch tracking-tight" data-text="VIRAL SHORTS">
+                <h2 className="relative text-3xl md:text-5xl font-black text-white glitch tracking-tight" data-text="VIRAL SHORTS">
                   VIRAL SHORTS
                 </h2>
               </div>
